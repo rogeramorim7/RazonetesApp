@@ -20,7 +20,7 @@
 📱 **Demonstração**
 <p align="center">
   <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/Simulador-de-Razonete-Cont%C3%A1bil-2025-10-07-13-45-24.gif" alt="Demonstração do RazonetesApp" width="700">
-  <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/AVISO.png" alt="Demonstração do RazonetesApp" width="350">
+  <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/AVISO.png" alt="Demonstração do RazonetesApp" width="700">
   <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/BALANCETE.png" alt="Demonstração do RazonetesApp" width="350">
   <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/DRE%20(ARE).png" alt="Demonstração do RazonetesApp" width="350">
   <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/EDITAR.png" alt="Demonstração do RazonetesApp" width="350">
