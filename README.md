@@ -33,11 +33,11 @@ O aplicativo oferece um ambiente completo para a simulação contábil:
 * **Lançamentos Contábeis:** Registro intuitivo de transações com designação clara de **Débito (D)** e **Crédito (C)**.
 * **Classificação Automática:** Sistema robusto para classificação e agrupamento automático das contas contábeis.
 * **Geração de Relatórios Interativos:**
-    * **Razonete (T-Contas):** Visualização interativa do movimento e saldo das contas.
-    * **Balancete de Verificação:** Relatório para conferência de saldos (Débitos vs. Créditos).
-    * **Balanço Patrimonial:** Demonstração do Ativo, Passivo e Patrimônio Líquido (PL).
-    * **DRE (Demonstração do Resultado do Exercício):** Cálculo do resultado (Lucro ou Prejuízo).
-    * **ARE (Demonstração do Resultado Abrangente):** Demonstração do resultado total.
+* **Razonete (T-Contas):** Visualização interativa do movimento e saldo das contas.
+* **Balancete de Verificação:** Relatório para conferência de saldos (Débitos vs. Créditos).
+* **Balanço Patrimonial:** Demonstração do Ativo, Passivo e Patrimônio Líquido (PL).
+* **DRE (Demonstração do Resultado do Exercício):** Cálculo do resultado (Lucro ou Prejuízo).
+* **ARE (Demonstração do Resultado Abrangente):** Demonstração do resultado total.
 * **Interface Gráfica (GUI):** Implementada com **Java Swing**, com módulos de interface isolados para cada relatório.
 * **Configuração Flexível:** Customização de parâmetros da aplicação (formato de data, *locale*, caminhos de exportação) via arquivo `settings.json`.
 * **Exportação:** Opção de exportar relatórios gerados em formatos como **CSV** ou **PDF**.
