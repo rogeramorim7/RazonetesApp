@@ -139,4 +139,4 @@ git push origin feature/nome-da-feature
 📞 Contato
 <div align="center"> <a href="https://www.linkedin.com/in/roger-de-amorim-300a14307/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="https://github.com/rogeramorim7" target="_blank"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> </a> </div>
 
-<sub align="center"> Feito com ☕ e dedicação por **rogeramorim7** — unindo **Contabilidade, Lógica e Java Swing** em um projeto completo de aprendizado. </sub> ```
+<sub align="center"> Feito com ☕ e dedicação por **rogeramorim7** — unindo **Contabilidade, Lógica e Java Swing** em um projeto completo de aprendizado. </sub>
