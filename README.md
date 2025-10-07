@@ -12,17 +12,17 @@ O **RazonetesApp** é uma poderosa ferramenta **desktop** desenvolvida em **Java
 
 ## 📋 Índice
 
-- [✨ Funcionalidades Principais](#-funcionalidades-principais)
-- [🏗️ Arquitetura do Projeto](#-arquitetura-do-projeto)
-- [🛠️ Instalação e Execução](#-instalação-e-execução)
+- [ Funcionalidades Principais](#-funcionalidades-principais)
+- [ Arquitetura do Projeto](#-arquitetura-do-projeto)
+- [ Instalação e Execução](#-instalação-e-execução)
     - [Pré-requisitos](#pré-requisitos)
     - [Compilação e Execução](#compilação-e-execução)
-- [⚙️ Configuração](#-configuração)
-- [📐 Exemplos de Uso](#-exemplos-de-uso)
-- [📸 Screenshots](#-screenshots)
-- [🧪 Testes Unitários](#-testes-unitários)
-- [🤝 Contribuição](#-contribuição)
-- [📄 Licença](#-licença)
+- [ Configuração](#-configuração)
+- [ Exemplos de Uso](#-exemplos-de-uso)
+- [ Screenshots](#-screenshots)
+- [ Testes Unitários](#-testes-unitários)
+- [ Contribuição](#-contribuição)
+- [ Licença](#-licença)
 
 ---
 
