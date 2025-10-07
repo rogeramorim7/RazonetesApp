@@ -1,163 +1,104 @@
-# **RazonetesApp**
-
-**Aplicação Desktop em Java para Simulação e Estudo Contábil**
-
-[![Java](https://img.shields.io/badge/Java-21+-orange?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge)](#[Status-do-Build])
-[![Licença](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-
-O **RazonetesApp** é uma poderosa ferramenta **desktop** desenvolvida em **Java** (Swing) para **estudantes e profissionais de contabilidade**. Ela facilita o aprendizado e a prática da escrituração contábil, permitindo o registro de lançamentos (débito/crédito) e a geração imediata de relatórios financeiros essenciais.
-
----
-
-## Índice
-
-- [ Funcionalidades Principais](#-funcionalidades-principais)
-- [ Arquitetura do Projeto](#-arquitetura-do-projeto)
-- [ Instalação e Execução](#-instalação-e-execução)
-- [Pré-requisitos](#pré-requisitos)
-- [Compilação e Execução](#compilação-e-execução)
-- [ Configuração](#-configuração)
-- [ Exemplos de Uso](#-exemplos-de-uso)
-- [ Screenshots](#-screenshots)
-- [ Testes Unitários](#-testes-unitários)
-- [ Contribuição](#-contribuição)
-- [ Licença](#-licença)
-
----
-
-## Funcionalidades Principais
-
-O aplicativo oferece um ambiente completo para a simulação contábil:
-
-* **Lançamentos Contábeis:** Registro intuitivo de transações com designação clara de **Débito (D)** e **Crédito (C)**.
-* **Classificação Automática:** Sistema robusto para classificação e agrupamento automático das contas contábeis.
-* **Geração de Relatórios Interativos:**
-* **Razonete (T-Contas):** Visualização interativa do movimento e saldo das contas.
-* **Balancete de Verificação:** Relatório para conferência de saldos (Débitos vs. Créditos).
-* **Balanço Patrimonial:** Demonstração do Ativo, Passivo e Patrimônio Líquido (PL).
-* **DRE (Demonstração do Resultado do Exercício):** Cálculo do resultado (Lucro ou Prejuízo).
-* **ARE (Demonstração do Resultado Abrangente):** Demonstração do resultado total.
-* **Interface Gráfica (GUI):** Implementada com **Java Swing**, com módulos de interface isolados para cada relatório.
-* **Configuração Flexível:** Customização de parâmetros da aplicação (formato de data, *locale*, caminhos de exportação) via arquivo `settings.json`.
-* **Exportação:** Opção de exportar relatórios gerados em formatos como **CSV** ou **PDF**.
-
----
-
-RazonetesApp/
-├── bin/                        # Classes compiladas (.class) após o build
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── com/minhaempresa/razao/
-│   │           ├── app/        # Ponto de entrada da aplicação (MainApplication)
-│   │           ├── core/       # Lógica de negócio, modelos e regras contábeis
-│   │           └── gui/        # Módulos da Interface Gráfica (Java Swing)
-│   └── test/                   # Código dos Testes Unitários (JUnit)
-└── settings.json               # Arquivo de configurações globais da aplicação            # Arquivo de configurações da aplicação
-
----
-
-## Instalação e Execução
-
-### Pré-requisitos
-
-* **Java Development Kit (JDK) 17+** (Recomendado JDK 21).
-* **Git**.
-
-### Compilação e Execução
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/SEU_USUARIO/RazonetesApp.git](https://github.com/SEU_USUARIO/RazonetesApp.git)
-    cd RazonetesApp
-    ```
-
-2.  **Compile o projeto:**
-    Se você usa ferramentas de *build* (Maven/Gradle):
-    ```bash
-    # Com Maven
-    mvn clean install
-    
-    # Ou com Gradle
-    gradle build
-    ```
-    Ou, compile diretamente usando `javac`:
-    ```bash
-    find src -name "*.java" > sources.txt
-    javac -d bin @sources.txt
-    ```
-
-3.  **Execute a aplicação:**
-    Após a compilação, inicie a aplicação a partir do diretório raiz:
-    ```bash
-    java -cp bin com.minhaempresa.razao.app.MainApplication
-    ```
-
----
-
-## Configuração
-
-O comportamento da aplicação pode ser ajustado modificando o arquivo de configurações **`settings.json`** na raiz do projeto.
-
-**Exemplo de `settings.json`:**
-
-```json
-{
-  "dataFormat": "dd/MM/yyyy", 
-  "exportPath": "./exports", 
-  "locale": "pt-BR",
-  "defaultCurrency": "BRL" 
-}
-Exemplos de Uso
-A navegação é feita via menu lateral:
-
-Registro de Lançamentos: Insira as transações, especificando a conta, o valor e o tipo (Débito/Crédito).
-
-Visualização de Razonete: Selecione uma conta para visualizar seu T-Conta e saldo.
-
-Geração de Balancete: Gere o Balancete para conferência de saldos.
-
-Exportação: Utilize o botão "Exportar" disponível nos módulos de relatórios para salvar as demonstrações (CSV/PDF).
-
-Screenshots
-Substitua os placeholders abaixo pelas imagens reais da sua aplicação.
-
 <div align="center">
-<h3>Razonete (T-Contas)</h3>
-<img src=".github/screenshots/razonete.png" alt="Razonete GUI" width="40%" />
+💼 RazonetesApp
+🇧🇷 Registro e Relatórios Contábeis em Java Swing
+<p> <a href="#-sobre-o-projeto">Sobre</a> - <a href="#-funcionalidades">Funcionalidades</a> - <a href="#-tecnologias">Tecnologias</a> - <a href="#️-como-executar">Como Executar</a> - <a href="#-contato">Contato</a> </p> </div>
+📱 Demonstração da Aplicação
+<p align="center"> <img src=".github/screenshots/razonete.gif" alt="GIF do RazonetesApp" width="700"> </p> <h4 align="center"> Aplicação Completa ✅ </h4>
+🚀 Sobre o Projeto
+RazonetesApp é uma ferramenta desktop desenvolvida em Java usando Swing para estudos e práticas contábeis. Permite o registro de lançamentos, classificação automática de contas e geração dinâmica de relatórios contábeis essenciais.
 
+Objetivos Principais
+Exibir T-Contas (Razonetes) para análise de débitos e créditos
 
+Gerar Balancete, Balanço Patrimonial, DRE e ARE
 
+Demonstrar boas práticas de modularização, POO e interface gráfica
 
-<h3>Balancete de Verificação</h3>
-<img src=".github/screenshots/balancete.png" alt="Balancete GUI" width="40%" />
-</div>
+⚙️ Funcionalidades
+ Cadastro de Lançamentos
 
-Testes Unitários
-O projeto utiliza JUnit para garantir a integridade da lógica de negócio (Core).
+Tipo Débito ou Crédito
 
-Bash
+Data, valor e descrição
 
-# Com Maven
+ Classificação de Contas
+
+Lógica para natureza de cada conta
+
+ Relatórios Contábeis
+
+Razonete (T-Conta interativo)
+
+Balancete (conferência de saldos)
+
+Balanço Patrimonial (Ativo, Passivo, PL)
+
+Demonstração do Resultado do Exercício (DRE)
+
+Demonstração do Resultado Abrangente (ARE)
+
+ Interface Gráfica
+
+Separada por relatório
+
+Navegação intuitiva
+
+Exportação de relatórios via CSV
+
+🏗️ Tecnologias Utilizadas
+<table> <tr> <td><strong>Tecnologia</strong></td> <td><strong>Badge</strong></td> <td><strong>Descrição</strong></td> </tr> <tr> <td>Java 17</td> <td><img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java&logoColor=white"></td> <td>Linguagem principal</td> </tr> <tr> <td>Swing</td> <td><img src="https://img.shields.io/badge/Swing-000000?style=for-the-badge&logo=java&logoColor=white"></td> <td>Biblioteca para GUI desktop</td> </tr> <tr> <td>Git & GitHub</td> <td><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></td> <td>Controle de versão</td> </tr> </table>
+🛠️ Como Executar o Projeto Localmente
+📋 Pré-requisitos
+Java Development Kit (JDK) 17+
+
+IDE compatível (IntelliJ IDEA, Eclipse, VS Code)
+
+🔧 Passo a Passo
+Clone o repositório
+
+bash
+git clone https://github.com/SEU_USUARIO/RazonetesApp.git
+cd RazonetesApp
+Compile as classes
+
+bash
+find src -name "*.java" > sources.txt
+javac -d bin @sources.txt
+Execute a aplicação
+
+bash
+java -cp bin com.minhaempresa.razao.app.MainApplication
+⚙️ Configurações
+Edite o arquivo settings.json para ajustar parâmetros:
+
+json
+{
+  "dataFormat": "dd/MM/yyyy",
+  "exportPath": "./exports",
+  "locale": "pt-BR"
+}
+📸 Screenshots
+<div align="center"> <img src=".github/screenshots/razonete.png" alt="Razonete GUI" width="45%" /> <img src=".github/screenshots/balancete.png" alt="Balancete GUI" width="45%" /> </div>
+Adicione suas telas reais em .github/screenshots/.
+
+🧪 Testes
+Execute testes JUnit:
+
+bash
 mvn test
-
-# Com Gradle
+# ou
 gradle test
-Contribuição
-Faça um fork deste repositório.
+🤝 Contribuição
+Faça um Fork
 
-Crie uma branch: git checkout -b feature/nome-da-feature.
+Crie uma Branch (git checkout -b feature/nome-da-feature)
 
-Commite suas alterações: git commit -m "feat: Adiciona nova funcionalidade X".
+Commit suas alterações (git commit -m "Descrição")
 
-Envie suas mudanças: git push origin feature/nome-da-feature.
+Push para o repositório remoto
 
-Abra um Pull Request (PR) detalhado.
+Abra um Pull Request
 
-Licença
-Este projeto é distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-## Arquitetura do Projeto
-
-O projeto adota uma estrutura modular para separar a lógica de negócio (*Core*) da interface gráfica (*GUI*) e da inicialização (`app`).
+📞 Contato
+<div align="center"> <a href="https://www.linkedin.com/in/SEU_USUARIO/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="https://github.com/SEU_USUARIO" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> </a> </div>
+<sub>Feito por SEU_NOME — Aprendizado de lógica contábil e Java Swing.</sub>
