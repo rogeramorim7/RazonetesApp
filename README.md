@@ -64,7 +64,6 @@ Permite registrar lançamentos, classificar contas automaticamente e gerar relat
 🖥️ **Interface Gráfica**
 - Navegação separada por relatório  
 - Interface intuitiva e moderna  
-- Exportação dos relatórios em **CSV**
 
 ---
 
