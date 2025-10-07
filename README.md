@@ -55,19 +55,23 @@ IDE compatível (IntelliJ IDEA, Eclipse, VS Code)
 
 🔧 Passo a Passo
 Clone o repositório
-
-bash
+```bash
 git clone https://github.com/SEU_USUARIO/RazonetesApp.git
 cd RazonetesApp
+```
+
 Compile as classes
 
-bash
+```bash
 find src -name "*.java" > sources.txt
 javac -d bin @sources.txt
 Execute a aplicação
+```
 
-bash
+```bash
 java -cp bin com.minhaempresa.razao.app.MainApplication
+```
+
 ⚙️ Configurações
 Edite o arquivo settings.json para ajustar parâmetros:
 
@@ -84,10 +88,12 @@ Adicione suas telas reais em .github/screenshots/.
 🧪 Testes
 Execute testes JUnit:
 
-bash
+```bash
 mvn test
 # ou
 gradle test
+```
+
 🤝 Contribuição
 Faça um Fork
 
@@ -100,5 +106,5 @@ Push para o repositório remoto
 Abra um Pull Request
 
 📞 Contato
-<div align="center"> <a href="https://www.linkedin.com/in/SEU_USUARIO/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="https://github.com/SEU_USUARIO" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> </a> </div>
-<sub>Feito por SEU_NOME — Aprendizado de lógica contábil e Java Swing.</sub>
+<div align="center"> <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/roger-de-amorim-300a14307//" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="https://github.com/rogeramorim7" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> </a> </div>
+<sub>Feito por rogeramorim7 — Aprendizado de lógica contábil e Java Swing.</sub>
