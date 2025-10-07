@@ -112,7 +112,7 @@ Ajuste parâmetros no arquivo settings.json:
 ```
 
 📸 Screenshots
-<div align="center"> <img src=".github/screenshots/razonete.png" alt="Razonete GUI" width="45%"/> <img src=".github/screenshots/balancete.png" alt="Balancete GUI" width="45%"/> </div>
+<div align="center"> <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/Simulador-de-Razonete-Cont%C3%A1bil-2025-10-07-13-45-24.gif" alt="Razonete GUI" width="45%"/> <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/BALANCETE.png" alt="Balancete GUI" width="45%"/> </div>
 
 ```bash
 🧪 Testes
