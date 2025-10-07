@@ -45,16 +45,16 @@ O aplicativo oferece um ambiente completo para a simulação contábil:
 ---
 
 RazonetesApp/
-├── bin/                        # Classes compiladas (.class)
+├── bin/                        # Classes compiladas (.class) após o build
 ├── src/
 │   ├── main/
 │   │   └── java/
 │   │       └── com/minhaempresa/razao/
-│   │           ├── app/        # Ponto de entrada (MainApplication)
+│   │           ├── app/        # Ponto de entrada da aplicação (MainApplication)
 │   │           ├── core/       # Lógica de negócio, modelos e regras contábeis
 │   │           └── gui/        # Módulos da Interface Gráfica (Java Swing)
 │   └── test/                   # Código dos Testes Unitários (JUnit)
-└── settings.json               # Arquivo de configurações da aplicação
+└── settings.json               # Arquivo de configurações globais da aplicação            # Arquivo de configurações da aplicação
 
 ---
 
