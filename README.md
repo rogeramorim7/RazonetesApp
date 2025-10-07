@@ -26,7 +26,7 @@ O **RazonetesApp** é uma poderosa ferramenta **desktop** desenvolvida em **Java
 
 ---
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 O aplicativo oferece um ambiente completo para a simulação contábil:
 
@@ -58,7 +58,7 @@ RazonetesApp/
 
 ---
 
-## 🛠️ Instalação e Execução
+## Instalação e Execução
 
 ### Pré-requisitos
 
@@ -96,7 +96,7 @@ RazonetesApp/
 
 ---
 
-## ⚙️ Configuração
+## Configuração
 
 O comportamento da aplicação pode ser ajustado modificando o arquivo de configurações **`settings.json`** na raiz do projeto.
 
@@ -109,7 +109,7 @@ O comportamento da aplicação pode ser ajustado modificando o arquivo de config
   "locale": "pt-BR",
   "defaultCurrency": "BRL" 
 }
-📐 Exemplos de Uso
+Exemplos de Uso
 A navegação é feita via menu lateral:
 
 Registro de Lançamentos: Insira as transações, especificando a conta, o valor e o tipo (Débito/Crédito).
@@ -120,7 +120,7 @@ Geração de Balancete: Gere o Balancete para conferência de saldos.
 
 Exportação: Utilize o botão "Exportar" disponível nos módulos de relatórios para salvar as demonstrações (CSV/PDF).
 
-📸 Screenshots
+Screenshots
 Substitua os placeholders abaixo pelas imagens reais da sua aplicação.
 
 <div align="center">
@@ -134,7 +134,7 @@ Substitua os placeholders abaixo pelas imagens reais da sua aplicação.
 <img src=".github/screenshots/balancete.png" alt="Balancete GUI" width="40%" />
 </div>
 
-🧪 Testes Unitários
+Testes Unitários
 O projeto utiliza JUnit para garantir a integridade da lógica de negócio (Core).
 
 Bash
@@ -144,7 +144,7 @@ mvn test
 
 # Com Gradle
 gradle test
-🤝 Contribuição
+Contribuição
 Faça um fork deste repositório.
 
 Crie uma branch: git checkout -b feature/nome-da-feature.
@@ -155,9 +155,9 @@ Envie suas mudanças: git push origin feature/nome-da-feature.
 
 Abra um Pull Request (PR) detalhado.
 
-📄 Licença
+Licença
 Este projeto é distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-## 🏗️ Arquitetura do Projeto
+## Arquitetura do Projeto
 
 O projeto adota uma estrutura modular para separar a lógica de negócio (*Core*) da interface gráfica (*GUI*) e da inicialização (`app`).
