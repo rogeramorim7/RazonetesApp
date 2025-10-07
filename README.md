@@ -10,7 +10,7 @@ O **RazonetesApp** é uma poderosa ferramenta **desktop** desenvolvida em **Java
 
 ---
 
-## 📋 Índice
+## Índice
 
 - [ Funcionalidades Principais](#-funcionalidades-principais)
 - [ Arquitetura do Projeto](#-arquitetura-do-projeto)
