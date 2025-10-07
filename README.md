@@ -3,7 +3,7 @@
 # 🧾 **RazonetesApp**
 ### Razonete • Balancete • ARE • Balanço Patrimonial
 
-🇧🇷 *Registro e Relatórios Contábeis em Java Swing*
+*Registro e Relatórios Contábeis em Java Swing*
 
 ---
 
