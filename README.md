@@ -1,110 +1,142 @@
 <div align="center">
-💼 RazonetesApp
-🇧🇷 Registro e Relatórios Contábeis em Java Swing
-<p> <a href="#-sobre-o-projeto">Sobre</a> - <a href="#-funcionalidades">Funcionalidades</a> - <a href="#-tecnologias">Tecnologias</a> - <a href="#️-como-executar">Como Executar</a> - <a href="#-contato">Contato</a> </p> </div>
-📱 Demonstração da Aplicação
-<p align="center"> <img src=".github/screenshots/razonete.gif" alt="GIF do RazonetesApp" width="700"> </p> <h4 align="center"> Aplicação Completa ✅ </h4>
-🚀 Sobre o Projeto
-RazonetesApp é uma ferramenta desktop desenvolvida em Java usando Swing para estudos e práticas contábeis. Permite o registro de lançamentos, classificação automática de contas e geração dinâmica de relatórios contábeis essenciais.
 
-Objetivos Principais
-Exibir T-Contas (Razonetes) para análise de débitos e créditos
+# 🧾 **RazonetesApp**
+### Razonete • Balancete • ARE • Balanço Patrimonial
 
-Gerar Balancete, Balanço Patrimonial, DRE e ARE
+🇧🇷 *Registro e Relatórios Contábeis em Java Swing*
 
-Demonstrar boas práticas de modularização, POO e interface gráfica
+---
 
-⚙️ Funcionalidades
- Cadastro de Lançamentos
+[📖 Sobre](#-sobre-o-projeto) • 
+[⚙️ Funcionalidades](#️-funcionalidades) • 
+[💻 Tecnologias](#-tecnologias-utilizadas) • 
+[🚀 Como Executar](#️-como-executar-o-projeto-localmente) • 
+[🧪 Testes](#-testes) • 
+[🤝 Contribuição](#-contribuição) • 
+[📞 Contato](#-contato)
 
-Tipo Débito ou Crédito
+---
 
-Data, valor e descrição
+📱 **Demonstração**
+<p align="center">
+  <img src=".github/screenshots/razonete.gif" alt="Demonstração do RazonetesApp" width="700">
+</p>
 
- Classificação de Contas
+<h4 align="center">💡 Aplicação completa e funcional — pronta para estudos e prática contábil.</h4>
 
-Lógica para natureza de cada conta
+---
 
- Relatórios Contábeis
+</div>
 
-Razonete (T-Conta interativo)
+## 📖 Sobre o Projeto
 
-Balancete (conferência de saldos)
+O **RazonetesApp** é uma aplicação desktop desenvolvida em **Java 25 (Swing)** com foco em **ensino e prática contábil**.  
+Permite registrar lançamentos, classificar contas automaticamente e gerar relatórios contábeis essenciais — tudo em uma interface gráfica intuitiva.
 
-Balanço Patrimonial (Ativo, Passivo, PL)
+### 🎯 Objetivos Principais
+- Visualizar **T-Contas (Razonetes)** com movimentação dinâmica  
+- Gerar **Balancete**, **Balanço Patrimonial**, **DRE** e **ARE**  
+- Aplicar **boas práticas de POO, modularização e camadas**  
+- Integrar **Contabilidade + Tecnologia** de forma didática
 
-Demonstração do Resultado do Exercício (DRE)
+---
 
-Demonstração do Resultado Abrangente (ARE)
+## ⚙️ Funcionalidades
 
- Interface Gráfica
+✅ **Cadastro de Lançamentos**
+- Tipo: Débito ou Crédito  
+- Campos: data, valor e descrição  
+- Armazenamento dinâmico em memória  
 
-Separada por relatório
+🧠 **Classificação Automática de Contas**
+- Lógica de natureza contábil (Ativo, Passivo, PL, Receita, Despesa)
 
-Navegação intuitiva
+📊 **Relatórios Contábeis**
+- **Razonete (T-Conta interativo)**  
+- **Balancete** com verificação de saldos  
+- **Balanço Patrimonial** (Ativo, Passivo e PL)  
+- **Demonstrações de Resultado (DRE e ARE)**  
 
-Exportação de relatórios via CSV
+🖥️ **Interface Gráfica**
+- Navegação separada por relatório  
+- Interface intuitiva e moderna  
+- Exportação dos relatórios em **CSV**
 
-🏗️ Tecnologias Utilizadas
-<table> <tr> <td><strong>Tecnologia</strong></td> <td><strong>Badge</strong></td> <td><strong>Descrição</strong></td> </tr> <tr> <td>Java 17</td> <td><img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java&logoColor=white"></td> <td>Linguagem principal</td> </tr> <tr> <td>Swing</td> <td><img src="https://img.shields.io/badge/Swing-000000?style=for-the-badge&logo=java&logoColor=white"></td> <td>Biblioteca para GUI desktop</td> </tr> <tr> <td>Git & GitHub</td> <td><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></td> <td>Controle de versão</td> </tr> </table>
-🛠️ Como Executar o Projeto Localmente
-📋 Pré-requisitos
-Java Development Kit (JDK) 17+
+---
 
-IDE compatível (IntelliJ IDEA, Eclipse, VS Code)
+## 💻 Tecnologias Utilizadas
 
-🔧 Passo a Passo
-Clone o repositório
+| Tecnologia | Badge | Descrição |
+|-------------|--------|-----------|
+| **Java 25** | ![Java](https://img.shields.io/badge/Java-25-orange?style=for-the-badge&logo=oracle&logoColor=white) | Linguagem principal |
+| **Swing** | ![Swing](https://img.shields.io/badge/Swing-000000?style=for-the-badge&logo=java&logoColor=white) | Biblioteca GUI desktop |
+| **Git & GitHub** | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Controle de versão e repositório |
+
+---
+
+## 🚀️ Como Executar o Projeto Localmente
+
+### 📋 Pré-requisitos
+- ☕ **JDK 25+** instalado  
+- 🧩 IDE de sua preferência (IntelliJ IDEA, Eclipse ou VS Code)
+
+---
+
+### 🔧 Passo a Passo
+
 ```bash
-git clone https://github.com/SEU_USUARIO/RazonetesApp.git
+# Clone o repositório
+git clone https://github.com/rogeramorim7/RazonetesApp.git
 cd RazonetesApp
-```
 
-Compile as classes
-
-```bash
+# Compile as classes
 find src -name "*.java" > sources.txt
 javac -d bin @sources.txt
-Execute a aplicação
-```
 
-```bash
+# Execute a aplicação
 java -cp bin com.minhaempresa.razao.app.MainApplication
 ```
 
-⚙️ Configurações
-Edite o arquivo settings.json para ajustar parâmetros:
+⚙️ Configurações Opcionais
 
-json
+Ajuste parâmetros no arquivo settings.json:
+```bash
 {
   "dataFormat": "dd/MM/yyyy",
   "exportPath": "./exports",
   "locale": "pt-BR"
 }
-📸 Screenshots
-<div align="center"> <img src=".github/screenshots/razonete.png" alt="Razonete GUI" width="45%" /> <img src=".github/screenshots/balancete.png" alt="Balancete GUI" width="45%" /> </div>
-Adicione suas telas reais em .github/screenshots/.
+```
 
-🧪 Testes
-Execute testes JUnit:
+📸 Screenshots
+<div align="center"> <img src=".github/screenshots/razonete.png" alt="Razonete GUI" width="45%"/> <img src=".github/screenshots/balancete.png" alt="Balancete GUI" width="45%"/> </div>
 
 ```bash
-mvn test
-# ou
-gradle test
+🧪 Testes
+
+Execute os testes automatizados com JUnit:
 ```
 
 🤝 Contribuição
-Faça um Fork
 
-Crie uma Branch (git checkout -b feature/nome-da-feature)
+Contribuições são sempre bem-vindas 💙
+Siga o fluxo padrão:
 
-Commit suas alterações (git commit -m "Descrição")
+```bash
+# 1️⃣ Faça um Fork
+# 2️⃣ Crie uma Branch
+git checkout -b feature/nome-da-feature
 
-Push para o repositório remoto
+# 3️⃣ Faça commits
+git commit -m "Adiciona nova funcionalidade"
 
-Abra um Pull Request
+# 4️⃣ Envie para o repositório remoto
+git push origin feature/nome-da-feature
+
+# 5️⃣ Abra um Pull Request 🚀
+```
 
 📞 Contato
-<div align="center"> <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/roger-de-amorim-300a14307//" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="https://github.com/rogeramorim7" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> </a> </div>
-<sub>Feito por rogeramorim7 — Aprendizado de lógica contábil e Java Swing.</sub>
+<div align="center"> <a href="https://www.linkedin.com/in/roger-de-amorim-300a14307/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="https://github.com/rogeramorim7" target="_blank"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/> </a> </div>
+
+<sub align="center"> Feito com ☕ e dedicação por **rogeramorim7** — unindo **Contabilidade, Lógica e Java Swing** em um projeto completo de aprendizado. </sub> ```
