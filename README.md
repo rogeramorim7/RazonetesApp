@@ -22,7 +22,7 @@
   <img src=".github/screenshots/razonete.gif" alt="Demonstração do RazonetesApp" width="700">
 </p>
 
-<h4 align="center">💡 Aplicação completa e funcional — pronta para estudos e prática contábil.</h4>
+<h4 align="center">Aplicação completa e funcional — pronta para estudos e prática contábil.</h4>
 
 ---
 
