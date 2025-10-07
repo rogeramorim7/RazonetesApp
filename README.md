@@ -23,7 +23,7 @@
   <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/AVISO.png" alt="Demonstração do RazonetesApp" width="700">
   <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/BALANCETE.png" alt="Demonstração do RazonetesApp" width="350">
   <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/DRE%20(ARE).png" alt="Demonstração do RazonetesApp" width="390">
-  <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/EDITAR.png" alt="Demonstração do RazonetesApp" width="350">
+  <img src="https://github.com/rogeramorim7/RazonetesApp/blob/main/EDITAR.png" alt="Demonstração do RazonetesApp" width="390">
 </p>
 
 <h4 align="center">Aplicação completa e funcional — pronta para estudos e prática contábil.</h4>
